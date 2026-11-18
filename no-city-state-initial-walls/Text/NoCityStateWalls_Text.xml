@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <Row Tag="LOC_MOD_NO_CS_WALLS_NAME" Language="en_US">
+            <Text>No City-State Initial Walls</Text>
+        </Row>
+        <Row Tag="LOC_MOD_NO_CS_WALLS_NAME" Language="zh_Hans_CN">
+            <Text>城邦开局无城墙</Text>
+        </Row>
+
+        <Row Tag="LOC_MOD_NO_CS_WALLS_TEASER" Language="en_US">
+            <Text>City-states no longer start with Ancient Walls on high difficulty</Text>
+        </Row>
+        <Row Tag="LOC_MOD_NO_CS_WALLS_TEASER" Language="zh_Hans_CN">
+            <Text>城邦在高难度开局不再拥有城墙</Text>
+        </Row>
+
+        <Row Tag="LOC_MOD_NO_CS_WALLS_DESCRIPTION" Language="en_US">
+            <Text>Removes the free Ancient Walls that city-states receive at Immortal and Deity difficulty, making them equal to Prince difficulty.</Text>
+        </Row>
+        <Row Tag="LOC_MOD_NO_CS_WALLS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>移除城邦在不朽与神级难度开局时获得的远古城墙，使其与王子难度一致。</Text>
+        </Row>
+    </LocalizedText>
+</GameData>

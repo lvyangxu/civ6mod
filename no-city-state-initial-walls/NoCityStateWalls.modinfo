@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="B3F1A6D2-7C4E-4A8B-9F0E-1D2C3B4A5E6F" version="1">
+    <Properties>
+        <Name>城邦无初始城墙</Name>
+        <Description>高难度时城邦无初始城墙</Description>
+        <Teaser>城邦无初始城墙</Teaser>
+        <Authors>Lingma</Authors>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <InGameActions>
+        <UpdateDatabase id="NoCSWallsData">
+            <Properties>
+                <LoadOrder>1000</LoadOrder>
+            </Properties>
+            <File>Data/NoCityStateWalls_Gameplay.xml</File>
+        </UpdateDatabase>
+    </InGameActions>
+    <LocalizedText>
+        <File>Text/NoCityStateWalls_Text.xml</File>
+    </LocalizedText>
+    <Files>
+        <File>Data/NoCityStateWalls_Gameplay.xml</File>
+        <File>Text/NoCityStateWalls_Text.xml</File>
+    </Files>
+</Mod>

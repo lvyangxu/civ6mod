@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 隐藏的 UI 上下文：仅用于挂载同名 Lua 脚本 AutoRepairDamagedBuildings.lua -->
+<Context>
+    <Container ID="AutoRepairRoot" Anchor="C,C" Size="1,1" Hidden="1"/>
+</Context>

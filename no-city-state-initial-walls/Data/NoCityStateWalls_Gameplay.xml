@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    No City-State Initial Walls
+    移除城邦开局城墙（与王子难度一致）
+
+    游戏原版数据 Base/Assets/Gameplay/Data/Eras.xml 中定义了：
+      <Row Era="ERA_ANCIENT" MinorOnly="true" MinDifficulty="DIFFICULTY_IMMORTAL"
+           Building="BUILDING_WALLS" District="DISTRICT_CITY_CENTER"/>
+
+    该记录使城邦（次级文明）在 Immortal（不朽）及以上难度开局时免费获得远古城墙。
+    此处删除该记录，使城邦在任何难度下开局都不再拥有城墙，等同于王子难度。
+
+    官方剧本 NubiaScenario / AlexanderScenario 使用相同的 <Delete> 方式达到同样目的。
+-->
+<GameInfo>
+    <StartingBuildings>
+        <!--
+            按主键 (Building, Era, District, MinDifficulty) 精确删除该行。
+            不写 MinorOnly，避免布尔字段比较可能带来的匹配失败。
+        -->
+        <Delete Building="BUILDING_WALLS" Era="ERA_ANCIENT" District="DISTRICT_CITY_CENTER" MinDifficulty="DIFFICULTY_IMMORTAL"/>
+    </StartingBuildings>
+</GameInfo>

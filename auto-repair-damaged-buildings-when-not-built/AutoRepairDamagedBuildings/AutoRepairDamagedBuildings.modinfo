@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="53C1C858-C53B-4650-8F07-210FA245B646" version="15">
+    <Properties>
+        <Name>自动修复受损建筑</Name>
+        <Description>每回合及城市完成生产/坐城时，自动把被灾害/掠夺损坏的建筑/城区的修复直接设为当前生产（仅人类玩家，不改变原有逻辑）。</Description>
+        <Teaser>空闲城市自动修复受损建筑与城区</Teaser>
+        <Authors>Lingma</Authors>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <InGameActions>
+        <AddUserInterfaces id="AutoRepairUI">
+            <Properties>
+                <Context>InGame</Context>
+            </Properties>
+            <File>UI/AutoRepairDamagedBuildings.xml</File>
+        </AddUserInterfaces>
+    </InGameActions>
+    <Files>
+        <File>UI/AutoRepairDamagedBuildings.xml</File>
+        <File>UI/AutoRepairDamagedBuildings.lua</File>
+    </Files>
+</Mod>

@@ -1,0 +1,21 @@
+# Windows / macOS 系统垃圾文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*~
+
+# 文明6 / 游戏运行与打包产物
+*.log
+Lua.log
+*.zip
+*.7z
+*.Civ6Proj
+Civ6Proj/
